@@ -1,0 +1,104 @@
+.wrapper {
+    /* width: fit-content; */
+    width: 100vw;
+    height: 700px;
+    display: absolute;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    /* background-color: cadetblue; */
+}
+
+/* Kongo */
+
+
+/* Building */
+.building{
+    height: 100px;
+    width: 100px;
+}
+
+
+/* Airplane */
+
+
+/* Clouds */
+
+
+/* Skyline */
+.skyline{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    /* flex: relative; */
+    align-items: flex-end;
+}
+/* Sky */
+.sky {
+    height: 100vh;
+    width:100vw;
+    background-image: linear-gradient(rgb(149, 149, 200), lightblue);
+    z-index: 1;
+}
+
+.tower{
+    height:80%;
+    width: 20%;
+    background-color: cadetblue;
+    z-index: 5;
+}
+
+.building{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    background-color: rgb(119, 119, 153);
+}
+
+#B1{
+    height: 40%;
+    width: 10%;
+}
+
+#B2{
+    height: 60%;
+    width: 12%
+}
+
+#B3{
+    height: 50%;
+    width: 50%;
+}
+
+#B4{
+    height: 40%;
+    width: 40%;
+}
+
+#B5{
+    height: 70%;
+    width: 50%;
+}
+#B6{
+    height: 50%;
+    width: 40%
+}
+
+#B7{
+    height: 60%;
+    width: 40%;
+}
+
+#B8{
+    height: 40%;
+    width: 60%;
+}
+
+
+.foreground {
+    height: fit-content;
+    width: fit-content;
+    /* border: 2px solid brown; */
+    /* background-color: brown; */
+}
