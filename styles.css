@@ -1,0 +1,343 @@
+body{
+  margin: 0px;
+  padding: opx;
+}
+
+.wrapper {
+  display: absolute;
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  width: 100vw;
+}
+
+.foreground {
+align-items: flex-end;
+height: 100%;
+width: 100%;
+}
+
+/* container holds sky, Gordziller & towers */
+.container {
+position: flex;
+height: 100vh;
+width: 100vw;
+}
+
+/* Sky holds skyline */
+.sky {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(rgb(97, 97, 228), rgb(231, 153, 238));
+  z-index: 0;
+}
+
+.towers {
+ display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+  align-items: flex-end;
+  z-index: 50;
+}
+
+.tower {
+background-image: linear-gradient(rgb(179, 179, 216), rgb(73, 81, 134));
+position: relative;
+border-top: 3px solid black;
+}
+
+
+#empire {
+height: 250px;
+width: 200px;
+top: 0px;
+left: 20px;
+background-color: medium-grey;
+}
+
+#t1{
+height: 100px;
+width: 200px;
+}
+
+#t2{
+height: 70px;
+width: 250px;
+}
+
+#t3{
+height: 120px;
+width: 250px;
+}
+
+#t4{
+height: 30px;
+width: 220px;
+}
+
+#t5{
+height: 90px;
+width: 280px;
+}
+
+#t6{
+height: 30px;
+width: 180px;
+}
+
+#t7{
+height: 110px;
+width: 180px;
+}
+
+#t8{
+height: 70px;
+width: 180px;
+}
+
+.skyline{
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+  align-items: flex-end;
+}
+
+.building{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-image: linear-gradient(rgb(112, 112, 180), rgb(5, 7, 20));
+  border-top: 3px solid darkblue;
+  
+}
+
+#B1{
+  height: 40%;
+  width: 10%;
+}
+
+#B2{
+  height: 60%;
+  width: 12%
+}
+
+#B3{
+  height: 50%;
+  width: 50%;
+}
+
+#B4{
+  height: 40%;
+  width: 40%;
+}
+
+#B5{
+  height: 70%;
+  width: 50%;
+}
+#B6{
+  height: 50%;
+  width: 40%
+}
+
+#B7{
+  height: 60%;
+  width: 40%;
+}
+
+#B8{
+  height: 40%;
+  width: 60%;
+}
+
+.gordziller {
+background-color: yellow;
+position: absolute;
+top: 20px;
+left: 550px;
+z-index: 0;
+}
+
+.gordzillerFlip {
+transform: scaleX(-1);
+background-color: green;
+position: absolute;
+top: 20px;
+left: 550px;
+z-index: 0;
+}
+
+.head{
+background-color: green;
+position: absolute;
+}
+
+#snout{
+height: 60px;
+width: 40px;
+top: 75px;
+left: 160px;
+border-radius: 15px 0px 0px 10px ;
+}
+
+.nostril{
+height: 10px;
+width: 10px;
+top: 5px;
+left: 6px;
+position: absolute;
+border-right: 5px solid black;
+border-top: 2px solid black;
+border-radius: 10px 15px 15px 0px;
+z-index: 15;
+}
+
+.mouth{
+height: 0px;
+width: 25px;
+position: absolute;
+top: 30px;
+left: 0px;
+border-top: 10px solid black;
+border-right: 10px solid red;
+border-radius: 0px 15px 0px 0px;
+z-index: 15;
+}
+
+#skull{
+height: 90px;
+width: 90px;
+top: 50px;
+left: 200px;
+border-radius: 15px 25px 0px 7px;
+border-top: 4px dotted black;
+border-bottom: 6px solid darkgreen;
+}
+
+.eye{
+background-color: red;
+border-top: 4px solid black;
+border-left: 1px solid black;
+position: absolute;
+height: 15px;
+width: 15px;
+top: 10px;
+left: 10px;
+z-index: 15;
+border-radius: 30px 0px 15px 0px
+}
+
+.pupil{
+height: 8px;
+width: 3px;
+position: relative;
+background-color: black;
+z-index: 10;
+left: 5px;
+top: 5px;
+}
+
+.body{
+background-color: green;
+position: absolute;
+border-top: 4px dotted black;
+border-bottom: 20px solid darkgreen;
+}
+
+#front{
+height: 150px;
+width: 90px;
+top: 80px;
+left: 280px;
+border-radius: 0px 15px 0px 70px;
+}
+
+#middle{
+height: 200px;
+width: 90px;
+top: 100px;
+left: 370px;
+border-radius: 0px 15px 0px 70px;
+}
+
+#end{
+height: 250px;
+width: 90px;
+top: 140px;
+left: 450px;
+border-radius: 15px;
+}
+
+.arm-top{
+position: absolute;
+height: 50px;
+width: 70px;
+top: 68px;
+left: 20px;
+border-radius: 90px 10px 0px 0px;
+border-left: 2px solid darkgreen;
+border-top: 3px solid darkgreen;
+z-index: 20;
+}
+
+.arm-bottom{
+position: absolute;
+height: 50px;
+width: 90px;
+top: 50px;
+left: 27px;
+border-radius: 90px 10px 90px 0px;
+padding-bottom: 2px solid black;
+border-right: 20px solid darkgreen;
+border-bottom: 5px solid darkgreen;
+z-index: 25;
+}
+
+.tail{ 
+background-color: green;
+position: absolute;
+border-top: 4px dotted black;
+border-right: 20px solid darkgreen;
+}
+
+#base{
+height: 125px;
+width: 100px; 
+top:170px;
+left: 510px;
+border-radius: 50px 0px  ;
+}
+
+#center{
+height: 95px;
+width: 120px; 
+top: 150px;
+left: 600px;
+border-radius: 45px 0px 80px 0px;
+}
+
+#tip{
+height: 50px;
+width: 120px; 
+top:140px;
+left: 700px;
+border-radius: 50px 0px 80px 0px;
+}
+
+#tippy-tip{
+height: 30px;
+width: 120px; 
+top:120px;
+left: 760px;
+border-radius: 150px 0px 190px 0px;
+}
+
+.button-wrapper{
+  position: absolute;
+  top: 5px;
+  left: 325px;
+}
