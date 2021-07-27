@@ -1,8 +1,15 @@
+body{
+  margin: 0px;
+  padding: opx;
+}
+
 .wrapper {
   display: absolute;
   border: 0px;
   margin: 0px;
   padding: 0px;
+  height: 100vh;
+  width: 100vw;
 }
 
 .foreground {
@@ -14,8 +21,8 @@ width: 100%;
 /* container holds sky, Gordziller & towers */
 .container {
 position: flex;
-height: 100%;
-width: 100%;
+height: 100vh;
+width: 100vw;
 }
 
 /* Sky holds skyline */
@@ -150,7 +157,7 @@ width: 180px;
 .gordziller {
 background-color: yellow;
 position: absolute;
-top: 145px;
+top: 20px;
 left: 550px;
 z-index: 0;
 }
@@ -159,7 +166,7 @@ z-index: 0;
 transform: scaleX(-1);
 background-color: green;
 position: absolute;
-top: 145px;
+top: 20px;
 left: 550px;
 z-index: 0;
 }
@@ -327,4 +334,10 @@ width: 120px;
 top:120px;
 left: 760px;
 border-radius: 150px 0px 190px 0px;
+}
+
+.button-wrapper{
+  position: absolute;
+  top: 5px;
+  left: 325px;
 }
